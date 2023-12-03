@@ -1,9 +1,8 @@
-# Snort (Intrusion Detection System Lab)
+# Intrusion Detection System home lab using Snort
 
 ## Description
-Building Home lab for Intrusion Detection System with snort using virtualbox with some virtual machine for test the intrusion
+Building an Intrusion Detection System Home lab, to detect and capture an intrusion in the network using snort with some virtual machine for making the intrusion (TCP and ssh)
 <br />
-
 
 ## VM That I used 
 
@@ -11,21 +10,25 @@ Building Home lab for Intrusion Detection System with snort using virtualbox wit
 - <b>Kali Linux</b>
 - <b>Metasploitable 2</b>
 
-## Environments Used
+## Operating System
 
 - <b>Windows 10</b> 
 
 ## Program walk-through:
 
-- <b>Install snort in ur ubuntu machine</b>
+- <b>Install snort in ubuntu machine</b>
+
+  - [How to install snort in ubuntu](https://vitux.com/snort-a-network-intrusion-detection-system-for-ubuntu/)
+<br />
+
+- <b>Configuring snort for detection</b> 
+
+  - After snort have installed in the ubuntu machine, we have to configure snort for intrusion. in here we have to set an IP address host and the prefix, so the snort know the range of an ip address that we have to detected from an intrusion, before that we have to know the IP network and the prefix by open your terminal and type:
+<br />
+
 ```bash
-  sudo apt-get install snort
+  ip a
 ```
-
-![snort1](https://github.com/cloverrrrrrr/HomeLab/assets/88470162/986dad61-24e7-4868-a91e-775c1ab3623b)
-
-- <b>set up ur network</b>
-
 
 
 <!--
