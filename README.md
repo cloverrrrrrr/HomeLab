@@ -21,7 +21,7 @@ Building an Intrusion Detection System Home lab, to detect and capture an intrus
   - [How to install snort in ubuntu](https://vitux.com/snort-a-network-intrusion-detection-system-for-ubuntu/)
 <br />
 
-- <b>Configuring snort for detection</b> 
+- <b>Configuring Snort</b> 
 
   - After snort have installed in the ubuntu machine, we have to configure snort for intrusion. in here we have to set an IP address host and the prefix, so the snort know the range of an ip address that we have to detected from an intrusion, before that we have to know the IP network and the prefix by open your terminal and type:
 <br />
